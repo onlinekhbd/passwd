@@ -59,4 +59,5 @@ if($regularChars > 0)
     $password .= generatePassword($regularChars, 'regular', $password);
 
 $password = str_shuffle($password);
-echo 'Your password is : '. $password;
+ echo 'Your password is : '. $password;
+?>
